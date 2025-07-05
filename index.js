@@ -240,11 +240,44 @@ if (
         );
       }
     };
-    //woner react
-
-    if (senderNumber.includes("94761676948")) {
-      if (isReact) return;
-      m.react("💀");
+    
+ // Owner react system - Integrated into index.js for better performance
+    if (!isReact) { // Only react to non-reaction messages to avoid loops
+      try {
+        const fs = require('fs');
+        const path = require('path');
+        const ownerReactPath = path.join(__dirname, 'data/ownerreact.json');
+        
+        if (fs.existsSync(ownerReactPath)) {
+          const ownerReactData = JSON.parse(fs.readFileSync(ownerReactPath, 'utf8'));
+          
+          // Check if sender is in owner list
+          for (const owner in ownerReactData) {
+            const cleanOwner = owner.replace('+', '');
+            if (senderNumber === cleanOwner) {
+              const emoji = ownerReactData[owner];
+              console.log(`Owner react: ${senderNumber} -> ${emoji} in ${isGroup ? 'group' : 'inbox'}`);
+              
+              try {
+                await robin.sendMessage(from, { 
+                  react: { 
+                    text: emoji, 
+                    key: mek.key 
+                  } 
+                });
+                console.log("✅ Owner reaction sent successfully");
+              } catch (reactError) {
+                console.error("❌ Failed to send owner reaction:", reactError.message);
+              }
+              break; // Exit after finding the owner
+            }
+          }
+        } else {
+          console.log("⚠️ Owner react data file not found at:", ownerReactPath);
+        }
+      } catch (error) {
+        console.error("❌ Owner react error:", error.message);
+      }
     }
     
     //work type
