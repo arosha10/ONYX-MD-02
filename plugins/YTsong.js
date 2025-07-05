@@ -1,1 +1,114 @@
-const _0x22c040=_0x2c07;function _0x2c07(_0xc15133,_0x3221b7){const _0x42b7b4=_0x42b7();return _0x2c07=function(_0x2c079b,_0xad7715){_0x2c079b=_0x2c079b-0x92;let _0x1cf454=_0x42b7b4[_0x2c079b];return _0x1cf454;},_0x2c07(_0xc15133,_0x3221b7);}(function(_0x3b13f9,_0x2fa5b5){const _0x17bd90=_0x2c07,_0xd28139=_0x3b13f9();while(!![]){try{const _0x50bd9b=parseInt(_0x17bd90(0xa1))/0x1+parseInt(_0x17bd90(0x9e))/0x2+parseInt(_0x17bd90(0xa6))/0x3*(parseInt(_0x17bd90(0xa8))/0x4)+-parseInt(_0x17bd90(0xae))/0x5+parseInt(_0x17bd90(0x93))/0x6+parseInt(_0x17bd90(0x9b))/0x7+-parseInt(_0x17bd90(0xa9))/0x8;if(_0x50bd9b===_0x2fa5b5)break;else _0xd28139['push'](_0xd28139['shift']());}catch(_0x3516d2){_0xd28139['push'](_0xd28139['shift']());}}}(_0x42b7,0x55d2f));function _0x42b7(){const _0x13abdf=['sendMessage','map','*🌀ONYX\x20MD🔥BY\x20AROSH🌀*','../command','videos','split','4841585iTyfbe','128','\x0a\x0a>\x20*Made\x20By\x20Arosh\x20Samuditha*\x0a','329544ljpMOx','Download\x20Song','title','31956QIpvJy','*නමක්\x20හරි\x20ලින්ක්\x20එකක්\x20හරි\x20දෙන්න*\x20🫠','\x0a📄\x20*description*\x20:\x20','\x0a*🌀ONYX\x20MD🔥SONG\x20DOWNLOADER🌀*\x0a\x0a🌀\x20*title*\x20:\x20','url','905214hDqkFv','\x0a⭕\x20*ago*\x20:\x20','8bKBXiC','11437120ovcpSE','audio/mpeg','\x0a👁\x20*views*\x20:\x20','length','>\x20*Thanks\x20for\x20using\x20🌀ONYX\x20MD🔥*','145150Vtsazx','ago','download','log','\x0a⏰\x20*time*\x20:\x20','⏱️\x20audio\x20limit\x20is\x2030\x20minitues','1910076BeUBZq','timestamp'];_0x42b7=function(){return _0x13abdf;};return _0x42b7();}const {cmd,commands}=require(_0x22c040(0x98)),yts=require('yt-search'),{ytmp3}=require('@vreden/youtube_scraper');cmd({'pattern':'song','react':'🎵','desc':_0x22c040(0x9f),'category':_0x22c040(0xb0),'filename':__filename},async(_0x5d3c08,_0x36e51f,_0x44a04a,{from:_0x38d43f,quoted:_0x2c47fb,body:_0x2a3157,isCmd:_0x180918,command:_0x5adfce,args:_0x84901b,q:_0xd5bc20,isGroup:_0x268b85,sender:_0x3767a3,senderNumber:_0x38f6d3,botNumber2:_0x3caad7,botNumber:_0x250f93,pushname:_0x133dbb,isMe:_0x86d364,isOwner:_0x45a40a,groupMetadata:_0x586345,groupName:_0x2af2a2,participants:_0x2869fd,groupAdmins:_0x352aed,isBotAdmins:_0x46089c,isAdmins:_0xe32ca6,reply:_0x5b428d})=>{const _0x2a7a35=_0x22c040;try{if(!_0xd5bc20)return _0x5b428d(_0x2a7a35(0xa2));const _0xbb9f24=await yts(_0xd5bc20),_0x55fb8f=_0xbb9f24[_0x2a7a35(0x99)][0x0],_0x2d3b9a=_0x55fb8f[_0x2a7a35(0xa5)];let _0x1f3d3d=_0x2a7a35(0xa4)+_0x55fb8f[_0x2a7a35(0xa0)]+_0x2a7a35(0xa3)+_0x55fb8f['description']+_0x2a7a35(0xb2)+_0x55fb8f[_0x2a7a35(0x94)]+_0x2a7a35(0xa7)+_0x55fb8f[_0x2a7a35(0xaf)]+_0x2a7a35(0xab)+_0x55fb8f['views']+'\x0a⛓‍💥\x20*url*\x20:\x20'+_0x55fb8f[_0x2a7a35(0xa5)]+_0x2a7a35(0x9d);await _0x5d3c08[_0x2a7a35(0x95)](_0x38d43f,{'image':{'url':_0x55fb8f['thumbnail']},'caption':_0x1f3d3d},{'quoted':_0x36e51f});const _0x4474fa=_0x2a7a35(0x9c),_0x199b5f=await ytmp3(_0x2d3b9a,_0x4474fa);let _0x2b5324=_0x55fb8f[_0x2a7a35(0x94)][_0x2a7a35(0x9a)](':')[_0x2a7a35(0x96)](Number),_0x164ea9=_0x2b5324[_0x2a7a35(0xac)]===0x3?_0x2b5324[0x0]*0xe10+_0x2b5324[0x1]*0x3c+_0x2b5324[0x2]:_0x2b5324[0x0]*0x3c+_0x2b5324[0x1];if(_0x164ea9>0x708)return _0x5b428d(_0x2a7a35(0x92));return await _0x5d3c08[_0x2a7a35(0x95)](_0x38d43f,{'audio':{'url':_0x199b5f[_0x2a7a35(0xb0)][_0x2a7a35(0xa5)]},'mimetype':_0x2a7a35(0xaa)},{'quoted':_0x36e51f}),await _0x5d3c08[_0x2a7a35(0x95)](_0x38d43f,{'document':{'url':_0x199b5f[_0x2a7a35(0xb0)][_0x2a7a35(0xa5)]},'mimetype':_0x2a7a35(0xaa),'fileName':_0x55fb8f[_0x2a7a35(0xa0)]+'.mp3','caption':_0x2a7a35(0x97)},{'quoted':_0x36e51f}),_0x5b428d(_0x2a7a35(0xad));}catch(_0x38462f){console[_0x2a7a35(0xb1)](_0x38462f),_0x5b428d('❌\x20Error:\x20'+_0x38462f['message']);}});
+const { cmd, commands } = require("../command");
+const yts = require("yt-search");
+const { ytmp3 } = require("@vreden/youtube_scraper");
+
+cmd(
+  {
+    pattern: "song",
+    react: "🎵",
+    desc: "Download Song",
+    category: "download",
+    filename: __filename,
+  },
+  async (
+    robin,
+    mek,
+    m,
+    {
+      from,
+      quoted,
+      body,
+      isCmd,
+      command,
+      args,
+      q,
+      isGroup,
+      sender,
+      senderNumber,
+      botNumber2,
+      botNumber,
+      pushname,
+      isMe,
+      isOwner,
+      groupMetadata,
+      groupName,
+      participants,
+      groupAdmins,
+      isBotAdmins,
+      isAdmins,
+      reply,
+    }
+  ) => {
+    try {
+      if (!q) return reply("*නමක් හරි ලින්ක් එකක් හරි දෙන්න* 🫠");
+
+      // Search for the video
+      const search = await yts(q);
+      const data = search.videos[0];
+      const url = data.url;
+
+      // Song metadata description
+      let desc = `
+*🌀ONYX MD🔥SONG DOWNLOADER🌀*
+
+🌀 *title* : ${data.title}
+📄 *description* : ${data.description}
+⏰ *time* : ${data.timestamp}
+⭕ *ago* : ${data.ago}
+👁 *views* : ${data.views}
+⛓‍💥 *url* : ${data.url}
+
+> *Made By Arosh Samuditha*
+`;
+
+      // Send metadata thumbnail message
+      await robin.sendMessage(
+        from,
+        { image: { url: data.thumbnail }, caption: desc },
+        { quoted: mek }
+      );
+
+      // Download the audio using @vreden/youtube_scraper
+      const quality = "128"; // Default quality
+      const songData = await ytmp3(url, quality);
+
+      // Validate song duration (limit: 30 minutes)
+      let durationParts = data.timestamp.split(":").map(Number);
+      let totalSeconds =
+        durationParts.length === 3
+          ? durationParts[0] * 3600 + durationParts[1] * 60 + durationParts[2]
+          : durationParts[0] * 60 + durationParts[1];
+
+      if (totalSeconds > 1800) {
+        return reply("⏱️ audio limit is 30 minitues");
+      }
+
+      // Send audio file
+      await robin.sendMessage(
+        from,
+        {
+          audio: { url: songData.download.url },
+          mimetype: "audio/mpeg",
+        },
+        { quoted: mek }
+      );
+
+      // Send as a document (optional)
+      await robin.sendMessage(
+        from,
+        {
+          document: { url: songData.download.url },
+          mimetype: "audio/mpeg",
+          fileName: `${data.title}.mp3`,
+          caption: "*🌀ONYX MD🔥BY AROSH🌀*",
+        },
+        { quoted: mek }
+      );
+
+      return reply("> *Thanks for using 🌀ONYX MD🔥*");
+    } catch (e) {
+      console.log(e);
+      reply(`❌ Error: ${e.message}`);
+    }
+  }
+);

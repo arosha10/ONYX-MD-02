@@ -1,1 +1,145 @@
-const _0x22db45=_0x3337;function _0x7b30(){const _0x5d87b0=['*🌀ONYX\x20MD🔥BY\x20AROSH🌀*','359016UyJPxX','2810339CtsrBP','27200FLBCRX','534DdacYy','video/mp4','timestamp','map','ago','32704TPWpff','video','\x0a👁\x20*views*\x20:\x20','title','\x0a\x0a>\x20*Made\x20By\x20Arosh\x20Samuditha*\x0a','@vreden/youtube_scraper','thumbnail','message','download','split','url','*නමක්\x20හරි\x20ලින්ක්\x20එකක්\x20හරි\x20දෙන්න*\x20🫠','yt-search','views','❌\x20Error:\x20','16571763uGfINr','Download\x20Video','\x0a⛓‍💥\x20*url*\x20:\x20','\x0a⏰\x20*time*\x20:\x20','128','1dVQXIZ','sendMessage','log','\x0a*🌀ONYX\x20MD🔥VIDEO\x20DOWNLOADER🌀*\x0a\x0a🌀\x20*title*\x20:\x20','videos','993720RcNBAI','length','248056GfQNFm','description','\x0a⭕\x20*ago*\x20:\x20'];_0x7b30=function(){return _0x5d87b0;};return _0x7b30();}(function(_0x58c5d5,_0x4ac6a5){const _0x16b8ad=_0x3337,_0x1b7bb2=_0x58c5d5();while(!![]){try{const _0x2d180b=parseInt(_0x16b8ad(0xec))/0x1*(-parseInt(_0x16b8ad(0xf1))/0x2)+-parseInt(_0x16b8ad(0xf7))/0x3+parseInt(_0x16b8ad(0xf3))/0x4+-parseInt(_0x16b8ad(0xf9))/0x5*(parseInt(_0x16b8ad(0xfa))/0x6)+-parseInt(_0x16b8ad(0xf8))/0x7+parseInt(_0x16b8ad(0xff))/0x8+parseInt(_0x16b8ad(0xe7))/0x9;if(_0x2d180b===_0x4ac6a5)break;else _0x1b7bb2['push'](_0x1b7bb2['shift']());}catch(_0x1e945f){_0x1b7bb2['push'](_0x1b7bb2['shift']());}}}(_0x7b30,0x62ef8));const {cmd,commands}=require('../command'),yts=require(_0x22db45(0xe4)),{ytmp4}=require(_0x22db45(0x104));function _0x3337(_0x3c302f,_0x52b3f2){const _0x7b3057=_0x7b30();return _0x3337=function(_0x3337ec,_0x2b5284){_0x3337ec=_0x3337ec-0xe1;let _0x3011f2=_0x7b3057[_0x3337ec];return _0x3011f2;},_0x3337(_0x3c302f,_0x52b3f2);}cmd({'pattern':_0x22db45(0x100),'react':'📽','desc':_0x22db45(0xe8),'category':'download','filename':__filename},async(_0x256e42,_0x4ee1f8,_0x37fdc1,{from:_0x4f53c7,quoted:_0x363ee2,body:_0xa2bd7a,isCmd:_0x1fc21e,command:_0x42a034,args:_0x54c9b5,q:_0x226e04,isGroup:_0x3dfff3,sender:_0x16c4f2,senderNumber:_0x3fd8bd,botNumber2:_0x251e87,botNumber:_0x46f43f,pushname:_0x140ebc,isMe:_0x39b88a,isOwner:_0x5bcbe4,groupMetadata:_0x4c02da,groupName:_0x401735,participants:_0x2268cb,groupAdmins:_0x317468,isBotAdmins:_0x2b9f9,isAdmins:_0x39388d,reply:_0x1e6138})=>{const _0x3b0239=_0x22db45;try{if(!_0x226e04)return _0x1e6138(_0x3b0239(0xe3));const _0x3ebf4d=await yts(_0x226e04),_0x20a265=_0x3ebf4d[_0x3b0239(0xf0)][0x0],_0x51ef5a=_0x20a265[_0x3b0239(0xe2)];let _0x27da3b=_0x3b0239(0xef)+_0x20a265[_0x3b0239(0x102)]+'\x0a📄\x20*description*\x20:\x20'+_0x20a265[_0x3b0239(0xf4)]+_0x3b0239(0xea)+_0x20a265[_0x3b0239(0xfc)]+_0x3b0239(0xf5)+_0x20a265[_0x3b0239(0xfe)]+_0x3b0239(0x101)+_0x20a265[_0x3b0239(0xe5)]+_0x3b0239(0xe9)+_0x20a265[_0x3b0239(0xe2)]+_0x3b0239(0x103);await _0x256e42['sendMessage'](_0x4f53c7,{'image':{'url':_0x20a265[_0x3b0239(0x105)]},'caption':_0x27da3b},{'quoted':_0x4ee1f8});const _0x23ec5a=_0x3b0239(0xeb),_0x337911=await ytmp4(_0x51ef5a,_0x23ec5a);let _0x5632e8=_0x20a265['timestamp'][_0x3b0239(0xe1)](':')[_0x3b0239(0xfd)](Number),_0x25b957=_0x5632e8[_0x3b0239(0xf2)]===0x3?_0x5632e8[0x0]*0xe10+_0x5632e8[0x1]*0x3c+_0x5632e8[0x2]:_0x5632e8[0x0]*0x3c+_0x5632e8[0x1];if(_0x25b957>0x708)return _0x1e6138('⏱️\x20audio\x20limit\x20is\x2030\x20minitues');return await _0x256e42[_0x3b0239(0xed)](_0x4f53c7,{'audio':{'url':_0x337911[_0x3b0239(0x107)][_0x3b0239(0xe2)]},'mimetype':_0x3b0239(0xfb)},{'quoted':_0x4ee1f8}),await _0x256e42[_0x3b0239(0xed)](_0x4f53c7,{'document':{'url':_0x337911[_0x3b0239(0x107)][_0x3b0239(0xe2)]},'mimetype':_0x3b0239(0xfb),'fileName':_0x20a265['title']+'.mp4','caption':_0x3b0239(0xf6)},{'quoted':_0x4ee1f8}),_0x1e6138('>\x20*Thanks\x20for\x20using\x20🌀ONYX\x20MD🔥*');}catch(_0x3d0bd9){console[_0x3b0239(0xee)](_0x3d0bd9),_0x1e6138(_0x3b0239(0xe6)+_0x3d0bd9[_0x3b0239(0x106)]);}});
+const { cmd, commands } = require("../command");
+const yts = require("yt-search");
+const { ytmp4 } = require("@vreden/youtube_scraper");
+
+cmd(
+  {
+    pattern: "video",
+    react: "📽",
+    desc: "Download Video",
+    category: "download",
+    filename: __filename,
+  },
+  async (
+    robin,
+    mek,
+    m,
+    {
+      from,
+      quoted,
+      body,
+      isCmd,
+      command,
+      args,
+      q,
+      isGroup,
+      sender,
+      senderNumber,
+      botNumber2,
+      botNumber,
+      pushname,
+      isMe,
+      isOwner,
+      groupMetadata,
+      groupName,
+      participants,
+      groupAdmins,
+      isBotAdmins,
+      isAdmins,
+      reply,
+    }
+  ) => {
+    try {
+      if (!q) return reply("*නමක් හරි ලින්ක් එකක් හරි දෙන්න* 🫠");
+
+      // Search for the video
+      const search = await yts(q);
+      if (!search.videos || search.videos.length === 0) {
+        return reply("❌ No videos found for your search. Please try a different search term.");
+      }
+      
+      const data = search.videos[0];
+      const url = data.url;
+
+      // Video metadata description
+      let desc = `
+*🌀ONYX MD🔥VIDEO DOWNLOADER🌀*
+
+🌀 *title* : ${data.title}
+📄 *description* : ${data.description}
+⏰ *time* : ${data.timestamp}
+⭕ *ago* : ${data.ago}
+👁 *views* : ${data.views}
+⛓‍💥 *url* : ${data.url}
+
+> *Made By Arosh Samuditha*
+`;
+
+      // Send metadata thumbnail message
+      await robin.sendMessage(
+        from,
+        { image: { url: data.thumbnail }, caption: desc },
+        { quoted: mek }
+      );
+
+      // Download the video using @vreden/youtube_scraper
+      const quality = "128"; // Default quality
+      const videoData = await ytmp4(url, quality);
+
+      // Validate videoData structure
+      if (!videoData || !videoData.download || !videoData.download.url) {
+        console.error("Invalid videoData structure:", videoData);
+        return reply("❌ Failed to get download URL. The video might be restricted or unavailable.");
+      }
+
+      // Validate video duration (limit: 30 minutes)
+      let durationParts = data.timestamp.split(":").map(Number);
+      let totalSeconds =
+        durationParts.length === 3
+          ? durationParts[0] * 3600 + durationParts[1] * 60 + durationParts[2]
+          : durationParts[0] * 60 + durationParts[1];
+
+      if (totalSeconds > 1800) {
+        return reply("⏱️ video limit is 30 minitues");
+      }
+
+      // Send video file
+      try {
+        await robin.sendMessage(
+          from,
+          {
+            video: { url: videoData.download.url },
+            mimetype: "video/mp4",
+            caption: "*🌀ONYX MD🔥BY AROSH🌀*",
+          },
+          { quoted: mek }
+        );
+      } catch (videoError) {
+        console.error("Failed to send video:", videoError.message);
+        return reply("❌ Failed to send video file. Please try again.");
+      }
+
+      // Send as a document (optional)
+      try {
+        await robin.sendMessage(
+          from,
+          {
+            document: { url: videoData.download.url },
+            mimetype: "video/mp4",
+            fileName: `${data.title}.mp4`,
+            caption: "*🌀ONYX MD🔥BY AROSH🌀*",
+          },
+          { quoted: mek }
+        );
+      } catch (docError) {
+        console.error("Failed to send document:", docError.message);
+        // Don't return here, just log the error
+      }
+
+      return reply("> *Thanks for using 🌀ONYX MD🔥*");
+    } catch (e) {
+      console.error("YTvideo plugin error:", e);
+      
+      // Provide more specific error messages
+      if (e.message.includes("No videos found")) {
+        reply("❌ No videos found for your search. Please try a different search term.");
+      } else if (e.message.includes("download")) {
+        reply("❌ Failed to download the video. The video might be restricted or unavailable.");
+      } else if (e.message.includes("network")) {
+        reply("❌ Network error. Please check your internet connection and try again.");
+      } else {
+        reply(`❌ Error: ${e.message || "Unknown error occurred"}`);
+      }
+    }
+  }
+);
