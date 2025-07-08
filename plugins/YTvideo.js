@@ -2,6 +2,30 @@ const { cmd, commands } = require("../command");
 const yts = require("yt-search");
 const { ytmp4 } = require("@vreden/youtube_scraper");
 
+const normalizeYouTubeUrl = (inputUrl) => {
+  try {
+    let urlObj = new URL(inputUrl);
+    let videoId = null;
+    if (urlObj.hostname === 'youtu.be') {
+      videoId = urlObj.pathname.slice(1);
+    } else if (urlObj.hostname.endsWith('youtube.com')) {
+      if (urlObj.pathname === '/watch') {
+        videoId = urlObj.searchParams.get('v');
+      } else if (urlObj.pathname.startsWith('/embed/')) {
+        videoId = urlObj.pathname.split('/embed/')[1];
+      } else if (urlObj.pathname.startsWith('/shorts/')) {
+        videoId = urlObj.pathname.split('/shorts/')[1];
+      }
+    }
+    if (videoId) {
+      return `https://www.youtube.com/watch?v=${videoId}`;
+    }
+    return inputUrl; // fallback
+  } catch {
+    return inputUrl;
+  }
+};
+
 cmd(
   {
     pattern: "video",
@@ -49,7 +73,7 @@ cmd(
       }
       
       const data = search.videos[0];
-      const url = data.url;
+      const url = normalizeYouTubeUrl(data.url);
 
       // Video metadata description
       let desc = `
